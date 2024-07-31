@@ -12,8 +12,8 @@ export default {
     rollupOptions: {
       input: ["src/js/main.js", "src/scss/styles.scss"],
       output: {
-        entryFileNames: "[hash].js",
-        assetFileNames: "[hash].[ext]",
+        entryFileNames: "scripts-[hash].js",
+        assetFileNames: "styles-[hash].[ext]",
       },
     },
   },

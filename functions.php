@@ -155,3 +155,18 @@ function c80_paginator($query = NULL)
 	));
 	echo '</nav>';
 }
+
+function c80_assets_resolver($path)
+{
+	$manifest = json_decode(file_get_contents(FM_ASSETS_PATH . '/.vite/manifest.json'), true);
+	return FM_ASSETS_URI . '/' . $manifest[$path]['file'];
+}
+
+function c80t_enqueue_styles()
+{
+	wp_enqueue_style('c80t-style', c80_assets_resolver('scss/styles.scss'), array(), C80_THEME_VERSION);
+	wp_enqueue_script('c80t-script', c80_assets_resolver('js/main.js'), array(), C80_THEME_VERSION, true);
+}
+
+add_action('wp_enqueue_scripts', 'c80t_enqueue_styles');
+
