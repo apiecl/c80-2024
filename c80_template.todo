@@ -1,0 +1,124 @@
+c80 cambios
+
+- cambiar cabecera para tener dos navegaciones
+	- navegación corporativa
+	- contenidos de constitución
+
+- Además 1 columna destacada a la derecha
+- Definir distintos tipos de contenido
+
+- Línea de tiempo en un servicio.
+	- Ver como conectarla con un contenido
+
+- Montaje para el viernes con home armado.
+		- Single también
+
+
+- Visualización inmediata de relacionados
+	- Relaciones visuales inmediatas con caluguitas.
+	- Relaciones con los artículos de la constitución
+	- Comentar: Párrafo. Relacionar: Artículos	
+
+- Artículo sube inmediatamente y se cita altiro.
+	- No se pierde contexto
+
+- Revisar índice visual para ajustar al largo.
+	- Indice visual a la izquierda
+
+- Premisa visual, siempre en contexto
+
+- Navegador lateral del contenido
+
+- Sugerencias generales de interacción por Rvega
+
+
+Notas de usabilidad
+
+Cargador de artículos de constitución
+
+- La pantalla se despliega si hay ancho suficiente, pasado cierto punto el comportamiento cambia a un despliegue que ocupa toda la pantalla.
+
+- Poder relacionar con incisos para cada artículo.
+
+- Añadir "artículos de la constitución"
++- Poner caluguitas de artículo
+- Crear cosa para columna destacada
+- Artículo iframe
+
+- Poner a lo ancho los temas en el home
+
++- Poner la constitución visible altiro
+	- Temas o claves visibles
+
+
++- línea superior de artículo
+	- temas
+	- artículos citados
+
+- Relaciones: 
+  - Artículo y Capítulo
+
+- Constitución
+	- 3 columnas
+	- índice navegable
+
++- Navegación de 3er nivel para subsecciones de capítulos
+
++- Cambio de tipografías
+	- A Oswald
+	- En excerpt
+	- Cambio general
+
++- Cabecera con temas
+- Footer
+	- Logos de apoyo
+	- Organización
+	- Fundación
++- Barra arriba de cada tipo de contenido
++- Borde arriba naranjo con colores blancos en artículos relacionados
+	- Cada tipo de contenido tiene un color
+
+
+
+Secciones:
+
+1 página somos
+
+	- Descripción del proyecto
+	- Con algo chico sobre el equipo
+	- Financiamiento
+
+Contacto
+
+Acceso al texto a la constitución
+
+Columnas
+
+Artículos
+
+(Colaboradores)
+
+
+
+Preguntas
+
+- ¿Las columnas llevan imagen destacada?
+
+Lista para lanzamiento
+
+- Enlaces a contenidos
+	- Columnas en listados de categorías
+- Vistas en móvil
+
+
+Reunión 18 Dic.
+===============
+
+- Comentarios en párrafos de la constitución.
+- Oembed.
+- Revisión estructuras de la constitución.
+
+
+- Sistema de comparación con otras constituciones.
+
+
