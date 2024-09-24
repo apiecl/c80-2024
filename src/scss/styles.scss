@@ -1,1 +1,43 @@
-@import "bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// c80 Variables
+$body_text: #111519;
+$morado: #913091;
+$blanco: #FCFBFA;
+$rojo: #D22630;
+$azul: #0066CC;
+$gris: #575658;
+$azul_oscuro: #17446A;
+$gris_azulado: #425563;
+$verde: #219653;
+$link_visitado: #804180;
+
+$white: $blanco;
+$black: $body_text;
+
+$primary: $azul;
+
+$font-family-base: 'Lato', sans-serif;
+$headings-font-family: 'Merriweather', serif;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// 4. Include any optional Bootstrap components as you like
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+

@@ -13,7 +13,12 @@ export default {
       input: ["src/js/main.js", "src/scss/styles.scss"],
       output: {
         entryFileNames: "scripts-[hash].js",
-        assetFileNames: "styles-[hash].[ext]",
+        assetFileNames: ({ name }) => {
+          if (/\.(gif|jpe?g|png|svg)$/.test(name ?? '')) {
+            return 'img/[name]-[hash][extname]';
+          }
+          return 'styles-[hash].[ext]';
+        },
       },
     },
   },
